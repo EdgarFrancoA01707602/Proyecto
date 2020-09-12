@@ -1,4 +1,4 @@
-# Proyecto
+# Proyecto Becario
 
 ### Contexto
 Hay un alumno el cual cuenta con un apoyo económico que consiste en una beca de tipo socioeconómica junto con un préstamo educativo para realizar sus estudios superiores en el Tecnológico de Monterrey.
@@ -17,13 +17,13 @@ Al final de cada semestre el alumno quiere saber si sigue conservando su beca o 
 
 ### Datos de entrada
                                 Nombre de la variable	                Tipo de dato	            Ejemplo
-Cantidad de unidades	                uni	                                Entero	                12
-Calificación por unidad	              cali                                Flotante	        90.5, 85.7, 80.1
-Carga Académica                   	  carg                                Entero	                18
-Servicio de becario                   beca	                              Entero	                70
-Aprobado                              aprob	                              Cadena/string	          “Si”
-Estatus Académico                     estat	                              Cadena/string	          “No”
-Corriente de los pagos                pagos	                              Cadena/string	          “No”
+    Cantidad de unidades	                uni	                                Entero	                12
+    Calificación por unidad	              cali                                Flotante	        90.5, 85.7, 80.1
+    Carga Académica                   	  carg                                Entero	                18
+    Servicio de becario                   beca	                              Entero	                70
+    Aprobado                              aprob	                              Cadena/string	          “Si”
+    Estatus Académico                     estat	                              Cadena/string	          “No”
+    Corriente de los pagos                pagos	                              Cadena/string	          “No”
 
 ### Datos de salida
 

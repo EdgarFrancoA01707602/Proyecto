@@ -35,48 +35,71 @@ Mostrar un mensaje que diga si conserva el préstamo educativo o no
 Aqui se presenta el pseudocódigo que servira como base para el desarrollo del proyecto
 
 INICIO
+
 uni, carg, beca, suma=0, cont=1: Entero
+
 promedio, cali: Flotante
+
 aprob, estat, pagos: Cadena/string
 
 ESCRIBA “¿Cuántas unidades llevaste?”
+
 LEER uni
 
 WHILE  cont  <=  uni
-    ESCRIBA “Calificación de la unidad ”+cont
-    LEER cali
-    suma=suma+cali
-    cont++
+
+   ESCRIBA “Calificación de la unidad ”+cont
+    
+   LEER cali
+    
+   suma=suma+cali
+    
+   cont++
+    
 END WHILE
 
 promedio  =  suma/uni
 
 ESCRIBA “¿Cuánta carga académica llevaste (créditos)? ”
+
 LEER carg
 
 ESCRIBA “¿Cuántas horas de servicio de becario hiciste? ”
+
 LEER beca
 
 ESCRIBA “Escribe “Si” si aprobaste todas tus unidades o “No” si no aprobaste todas tus unidades ”
+
 LEER aprob
 
 ESCRIBA “¿Tu estatus académico es regular? Escribe “Si” o “No” ”
+
 LEER estat
 
 ESCRIBA “¿Estas al corriente de tus pagos? Escribe “Si” o “No” ”
+
 LEER pagos
 
 IF pagos == “Si”  AND  estat == “Si”
-    MOSTRAR “Conservas tu préstamo educativo”
+
+   MOSTRAR “Conservas tu préstamo educativo”
+    
 ELSE
-    MOSTRAR “Se te retirara tu préstamo educativo”
+
+   MOSTRAR “Se te retirara tu préstamo educativo”
+    
 END IF
 
 IF promedio >= 85  AND  carg >= 18  AND  beca == 70  AND  aprob == “Si”
-    MOSTRAR “Conservaras tu beca”
+
+   MOSTRAR “Conservaras tu beca”
+    
 ELSE
-    MOSTRAR “Se te retirara la beca”
+
+   MOSTRAR “Se te retirara la beca”
+    
 END IF
+
 FIN
 
 ### proyecto_becario

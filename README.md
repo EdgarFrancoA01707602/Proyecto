@@ -16,20 +16,19 @@ Y para conservar su préstamo educativo debe cumplir con los siguientes requisit
 Al final de cada semestre el alumno quiere saber si sigue conservando su beca o no.
 
 ### Datos de entrada
-                                Nombre de la variable	                Tipo de dato	            Ejemplo
-    Cantidad de unidades	                uni	                                Entero	                12
-    Calificación por unidad	              cali                                Flotante	        90.5, 85.7, 80.1
-    Carga Académica                   	  carg                                Entero	                18
-    Servicio de becario                   beca	                              Entero	                70
-    Aprobado                              aprob	                              Cadena/string	          “Si”
-    Estatus Académico                     estat	                              Cadena/string	          “No”
-    Corriente de los pagos                pagos	                              Cadena/string	          “No”
+Cuantas unidades llevaste al semestre
+Calificación de cada unidad
+Cantidad de creditos que equivale cada unidad
+Horas de servicio de becario realizadas
+Si se esta al corriente de los pagos o no
+Si desea ver como se calcula el promedio
 
 ### Datos de salida
-
-Tu promedio general
-Mostrar un mensaje que diga si conserva la beca o no
-Mostrar un mensaje que diga si conserva el préstamo educativo o no
+Promedio general
+Cantidad de materias reprobadas
+Si se conserva o no el prestamo educativo
+Si el estatus del alumno es Regular o Condicional
+Si se retira la beca o se conserva
  
 ### Pseudocódigo
 Aqui se presenta el pseudocódigo que servira como base para el desarrollo del proyecto
@@ -108,3 +107,4 @@ Todo lo anterior se esta haciendo en el archivo:
     python proyecto_becario.py
     
 Se puede realizar una consulta o descargar para abrirlo en Thonny o dar clic en el boton de play.
+Es importante mecionar que el archivo de imagen debe de estar siempre en el mismo directorio que el archivo del código.

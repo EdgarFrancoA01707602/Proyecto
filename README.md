@@ -17,18 +17,29 @@ Al final de cada semestre el alumno quiere saber si sigue conservando su beca o 
 
 ### Datos de entrada
 Cuantas unidades llevaste al semestre
+
 Calificación de cada unidad
+
 Cantidad de creditos que equivale cada unidad
+
 Horas de servicio de becario realizadas
+
 Si se esta al corriente de los pagos o no
+
 Si desea ver como se calcula el promedio
+
 
 ### Datos de salida
 Promedio general
+
 Cantidad de materias reprobadas
+
 Si se conserva o no el prestamo educativo
+
 Si el estatus del alumno es Regular o Condicional
+
 Si se retira la beca o se conserva
+
  
 ### Pseudocódigo
 Aqui se presenta el pseudocódigo que servira como base para el desarrollo del proyecto
@@ -107,4 +118,5 @@ Todo lo anterior se esta haciendo en el archivo:
     python proyecto_becario.py
     
 Se puede realizar una consulta o descargar para abrirlo en Thonny o dar clic en el boton de play.
+
 Es importante mecionar que el archivo de imagen debe de estar siempre en el mismo directorio que el archivo del código.

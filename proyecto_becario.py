@@ -46,6 +46,7 @@ for a in range(uni):
     if (cali<70):
         aprob=aprob+1
         credi_r=credi_r+credi
+    carg=carg+credi
     cali_lista.append(cali)
     credi_lista.append(credi)
     cont=cont+1

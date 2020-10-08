@@ -30,6 +30,8 @@ Si desea ver como se calcula el promedio
 
 
 ### Datos de salida
+Tabla que muestra el numero de unidad, la calificación, los créditos que vale y su ponderación
+
 Promedio general
 
 Cantidad de materias reprobadas

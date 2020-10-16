@@ -1,0 +1,82 @@
+
+============================ Corrección 1 =====================================
+
+Sub-Competencia: 
+	Estándares SICT0401A
+	El estilo cumple con las normas y estándares enunciadas en el documento de PEP 8
+
+Error original:
+	Faltaba hacer uso de los comentarios dentro del mismo código para explicar como funciona cada parte
+	ya que en ninguna parte del código habia usado comentarios.
+
+Cambio realizado:
+	Lo que se hizo fue agregar comentarios a lo largo de todo el codigo para dar a entender que es lo que se
+	recibe, lo que hace y lo que devuelve.
+	También para identificar la parte del codigo donde se encuentran las funciones y la parte principal
+
+Líneas de código donde se ve la corrección:
+1 a 17
+20 a 23
+25 a 35
+46 a 52
+61 a 70
+80 a 89
+99 a 107
+114 a 122
+129 a 137
+144 a 150
+162 a 166
+169
+183
+185
+186
+189
+192
+195 a 200
+206
+209
+212
+215
+218 a 225
+
+
+============================ Corrección 2 =====================================
+
+Sub-Competencia: 
+	Estándares SICT0401A
+	El proyecto no contiene código basura
+
+Error original: Habia puesto 2 acumuladores que aunque estaban haciendo los calculos bien
+		no eran necesarios ya que en ningun momento llegue a ocuparlos en la función
+
+def function_imprimir(unidades):
+    print(" ________________________________________________")
+    print('{:^10}{:^10}{:^10}{:^10}'.format('| Unidad |',' Calificación ','| Créditos |',' Ponderación |'))
+    acum_cali=0.0
+    acum_credi=0
+    pos=0
+    cont=1
+    for cali in unidades:
+        acum_cali=acum_cali+(unidades[pos][0]*unidades[pos][1])
+        acum_credi=acum_credi+unidades[pos][1]
+        print('|{:^8}|{:^14}|{:^10}|{:^13}|'.format(cont,unidades[pos][0],unidades[pos][1],unidades[pos][0]*unidades[pos][1]))
+        pos=pos+1
+        cont=cont+1
+    print(" ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯")
+
+Cambio realizado: Elimine los dos acumuladores y los dos calculos que se estaban realizando, en total elimine 4 lineas de código
+
+def function_imprimir(unidades):
+    print(" ________________________________________________")
+    print('{:^10}{:^10}{:^10}{:^10}'.format('| Unidad |',' Calificación ','| Créditos |',' Ponderación |'))
+    pos=0
+    cont=1
+    for cali in unidades:
+        print('|{:^8}|{:^14}|{:^10}|{:^13}|'.format(cont,unidades[pos][0],unidades[pos][1],unidades[pos][0]*unidades[pos][1]))
+        pos=pos+1
+        cont=cont+1
+    print(" ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯")
+
+
+Líneas de código donde se ve la corrección:
+143 a 159
